@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MobileApp-Automation-Appium" verbose="1">
+    <listeners>
+        <listener class-name="listeners.ExtentReportListener"></listener>
+        <listener class-name="listeners.RetryListener"></listener>
+    </listeners>
+    <test preserve-order="true" name="MobileApp-Automation-Appium">
+        <classes>
+            <class name="testScripts.Android.longClickGestureDemo"/>
+        </classes>
+    </test>
+</suite>
+

@@ -1,0 +1,27 @@
+platform: "android"
+android:
+  platformName: "android"
+  app: "/app/ApiDemos-debug.apk"
+  deviceName: "emulator-5554"
+  platformVersion: 12
+  automationName: "UiAutomator2"
+  #appActivity: "com.falabella.falabellaApp.SplashActivity"
+  #appPackage: "com.falabella.falabellaApp"
+  fullReset: false
+  autoDismissAlerts: true
+
+iOS:
+  platformName: "iOS"
+  deviceName: "iPhone 15"
+  platformVersion: 17.0
+  automationName: "XCUITest"
+  udid: "CC1BF70A-9A9B-4BA9-8665-3B5C088EE609"
+  usePrebuiltWDA: true
+  wdaLocalPort: 8200
+  fullReset: false
+  app: "/app/iOSApp.app"
+  autoDismissAlerts: true
+  locationServicesEnabled: true
+
+androidPort: 4723
+iOSPort: 4723
