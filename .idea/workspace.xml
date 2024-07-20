@@ -4,43 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff082587-ca62-4f27-a30c-f0fe980423b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ApiDemos-debug.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/General-Store.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/longClickGestureDemo2024.07.18.23.05.52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/longClickGestureDemo2024.07.18.23.26.33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/driverManager/AppiumDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/driverManager/AppiumServerManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lables/ANDROIDLABEL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lables/IOSLABEL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listeners/ExtentReportListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listeners/RetryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listeners/TestNGListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjectRepository/Android/PreferencePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjectRepository/Android/ViewsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjectRepository/BaseObjectRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/GenericMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/SendMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/TestdataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testScripts/Android/TCBasicAppiumValidationsInPreferencesModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testScripts/Android/TCDragAndDropInViewsModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testScripts/Android/TCScrollDownDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testScripts/Android/longClickGestureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testScripts/BaseTestScript.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/androidTestdata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/iOSTestdata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Personal Project on android : 2024.07.18.23.26.15.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff082587-ca62-4f27-a30c-f0fe980423b1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,15 +29,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/poojashettigar/Documents/Learnings/Appium/MobileApp-Automation-Appium"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
