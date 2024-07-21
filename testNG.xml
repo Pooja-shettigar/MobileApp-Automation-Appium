@@ -7,7 +7,7 @@
     </listeners>
     <test preserve-order="true" name="MobileApp-Automation-Appium">
         <classes>
-            <class name="testScripts.Android.longClickGestureDemo"/>
+            <class name="testScripts.Android.TCLongClickGestureDemo"/>
         </classes>
     </test>
 </suite>

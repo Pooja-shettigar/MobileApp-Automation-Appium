@@ -15,19 +15,19 @@ import java.util.Map;
 public class ConfigReader {
     Map<String, Object> yamlMaps = new HashMap<>();
     Yaml yaml = new Yaml();
-
+    protected static String curDir = System.getProperty("user.dir");
 
     //set capability
     public  DesiredCapabilities getConfigData() throws FileNotFoundException {
         Map<Map<Object, Object>, Object> capabilities = new HashMap<>();
         DesiredCapabilities caps = new DesiredCapabilities();
-        InputStream inputStream = new FileInputStream(System.getProperty("user.dir") + "/config.yaml");
+        InputStream inputStream = new FileInputStream(curDir + "/config.yaml");
         yamlMaps = (Map<String, Object>) yaml.load(inputStream);
         String platform = yamlMaps.get("platform").toString();
         capabilities = (HashMap<Map<Object, Object>, Object>) yamlMaps.get(platform);
         for (Object key : capabilities.keySet()) {
             if (key.equals("app")) {
-                caps.setCapability(key.toString(), System.getProperty("user.dir") + capabilities.get(key).toString());
+                caps.setCapability(key.toString(), curDir + capabilities.get(key).toString());
             } else {
                 caps.setCapability(key.toString(), capabilities.get(key).toString());
             }
@@ -39,20 +39,20 @@ public class ConfigReader {
 
     //fetch platform name from yaml file
     public String getPlatformName() throws FileNotFoundException {
-        InputStream inputStream = new FileInputStream(System.getProperty("user.dir") + "/config.yaml");
+        InputStream inputStream = new FileInputStream(curDir + "/config.yaml");
         yamlMaps = (Map<String, Object>) yaml.load(inputStream);
         return yamlMaps.get("platform").toString();
     }
 
     public String getValueAsString(String key) throws FileNotFoundException {
-        InputStream inputStream = new FileInputStream(System.getProperty("user.dir") + "/config.yaml");
+        InputStream inputStream = new FileInputStream(curDir + "/config.yaml");
         yamlMaps = (Map<String, Object>) yaml.load(inputStream);
         return yamlMaps.get(key).toString();
     }
 
     //fetch port number from yaml file
     public String getPortNumber(String platformName) throws FileNotFoundException {
-        InputStream inputStream = new FileInputStream(System.getProperty("user.dir") + "/config.yaml");
+        InputStream inputStream = new FileInputStream(curDir + "/config.yaml");
         yamlMaps = (Map<String, Object>) yaml.load(inputStream);
         String port_number;
         if (platformName.equalsIgnoreCase("android")) {
@@ -64,7 +64,7 @@ public class ConfigReader {
     }
 
     public String getBundleId() throws FileNotFoundException {
-        InputStream inputStream = new FileInputStream(System.getProperty("user.dir") + "/config.yaml");
+        InputStream inputStream = new FileInputStream(curDir + "/config.yaml");
         yamlMaps = (Map<String, Object>) yaml.load(inputStream);
         String bundle_id = yamlMaps.get("bundleId").toString();
         return bundle_id;
@@ -72,11 +72,11 @@ public class ConfigReader {
 
     public void setEnvironmentInYaml(String environment) throws IOException {
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
-        ObjectNode root = (ObjectNode) mapper.readTree(new File(System.getProperty("user.dir") + "/config.yaml"));
+        ObjectNode root = (ObjectNode) mapper.readTree(new File(curDir + "/config.yaml"));
         // Update the value
         root.put("environment", environment);
         // Write changes to the YAML file
-        mapper.writer().writeValue(new File(System.getProperty("user.dir") + "/config.yaml"), root);
+        mapper.writer().writeValue(new File(curDir + "/config.yaml"), root);
     }
 }
 

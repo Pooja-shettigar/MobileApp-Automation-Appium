@@ -1,6 +1,6 @@
 {
   "iOS" : [{
-    "wifiSettingName": "Test1234"
+    "alertInput": "Test1234"
 
   }]
 }

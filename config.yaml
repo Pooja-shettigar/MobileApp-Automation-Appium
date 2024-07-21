@@ -1,4 +1,4 @@
-platform: "android"
+platform: "iOS"
 android:
   platformName: "android"
   app: "/app/ApiDemos-debug.apk"
@@ -19,7 +19,7 @@ iOS:
   usePrebuiltWDA: true
   wdaLocalPort: 8200
   fullReset: false
-  app: "/app/iOSApp.app"
+  app: "/app/UIKitCatalog.app"
   autoDismissAlerts: true
   locationServicesEnabled: true
 

@@ -1,7 +1,7 @@
 package lables;
 
 public enum IOSLABEL {
-    DUMMYVALUE("DummyValue");
+    MESSAGE("A message should be a short, complete sentence.");
     String value;
     public String getValue() {
         return value;
