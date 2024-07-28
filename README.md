@@ -3,6 +3,7 @@ This project has been developed to automate mobile application on Android and iO
 
 ## Steps to run the application:
 iOS Appium setup -> https://sadaniruchee.medium.com/ios-app-automation-on-mac-using-appium-60ab375bd08c
+
 AND Appium setup -> https://jignect.tech/appium-setup-a-step-by-step-guide-for-beginner/ 
 
 
