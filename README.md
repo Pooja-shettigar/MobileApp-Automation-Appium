@@ -2,20 +2,9 @@
 This project has been developed to automate mobile application on Android and iOS platform using Java, Appium, TestNG and Maven.
 
 ## Steps to run the application:
+iOS Appium setup -> https://sadaniruchee.medium.com/ios-app-automation-on-mac-using-appium-60ab375bd08c
+AND Appium setup -> https://jignect.tech/appium-setup-a-step-by-step-guide-for-beginner/ 
 
-1. Install Appium Server (CLI). Follow instructions on [Appium Installation Help](http://appium.io/docs/en/about-appium/getting-started/). Appium Server need not be started externally, it is handled in the code itself.
-
-2. Install Android SDK (Command line tools). Follow instructions on [Android Installation Help](https://developer.android.com/studio/?gclid=CjwKCAjwwYP2BRBGEiwAkoBpAohuHRSwpwUk11WkmX7U1dBifIror9wPrmD_xfqMJVCdfkNqB-nSbhoCFyMQAvD_BwE&gclsrc=aw.ds)
-
-3. Connect your android device and verify connectivity.
-
-4. Update testng.xml with android device details (Device Name, UDID and Platform version).
-
-5. Run the below command on Command Prompt.
-
-```sh
-mvn clean install
-```
 
 
 
