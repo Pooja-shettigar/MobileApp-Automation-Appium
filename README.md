@@ -16,11 +16,8 @@ This project has been developed to automate mobile application on Android and iO
 ```sh
 mvn clean install
 ```
-6. On completion of execution, test report will be generated in [ebaytest.html file](https://github.com/meghanashashi/EbayAppiumAutomation/blob/master/ExtentReports/ebaytest.html)
 
- ![image](https://github.com/meghanashashi/EbayAppiumAutomation/blob/master/images/Report.png)
 
-7. Log files will be generated in the file location specified in [log4j.properties](https://github.com/meghanashashi/EbayAppiumAutomation/blob/master/src/test/resources/log4j.properties)
 
 ## App Design
 
@@ -29,6 +26,8 @@ mvn clean install
 3. Code for application framework can be found here -> https://github.com/Pooja-shettigar/MobileApp-Automation-Appium/tree/master/src/main/java
 4. Test data is read from external source file ->  https://github.com/Pooja-shettigar/MobileApp-Automation-Appium/tree/master/src/test/resources
 5. Android and iOS Congif details can be found here -> https://github.com/Pooja-shettigar/MobileApp-Automation-Appium/blob/master/config.yaml 
-8. Extent Reports is used for reporting functionality.
+6. Extent Reports is used for reporting functionality.
+7. On completion of execution, test report will be generated here -> https://github.com/Pooja-shettigar/MobileApp-Automation-Appium/tree/master/test-output 
+
 
 
