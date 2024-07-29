@@ -6,7 +6,7 @@ import testScripts.BaseTestScript;
 public class TCBasicAppiumValidationsInAlterviewModule extends BaseTestScript {
 
     @Test(description = "Basic appium comands executions")
-    public void validateAlters() throws InterruptedException {
+    public void validateAlters() {
         alertViewPage.validateAlters();
     }
     @Test(description = "Basic appium comands executions")

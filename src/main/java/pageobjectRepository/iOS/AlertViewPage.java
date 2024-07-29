@@ -20,7 +20,7 @@ public class AlertViewPage extends BaseObjectRepo {
     private MobileElement alertViews;
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name='Text Entry']")
     private MobileElement textEntry;
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeCell")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeCell//XCUIElementTypeOther")
     private MobileElement alertInput;
     @iOSXCUITFindBy(id="OK")
     private MobileElement alertOK;
@@ -49,12 +49,12 @@ public class AlertViewPage extends BaseObjectRepo {
 
     public MobileElement getConfirm() {return confirm;}
 
-    public void validateAlters() throws InterruptedException {
+    public void validateAlters() {
         getAlertViews().click();
         getTextEntry().click();
+        Assert.assertTrue(getAlertInput().isDisplayed());
         getAlertInput().sendKeys(TestdataReader.readTestdata("iOS","alertInput"));
-        Thread.sleep(3000);
-        //getAlertOK();
+        getAlertOK();
     }
 
     public void validateConfirmCancelPopup(){

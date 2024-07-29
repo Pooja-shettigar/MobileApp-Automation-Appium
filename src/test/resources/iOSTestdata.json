@@ -1,6 +1,8 @@
 {
   "iOS" : [{
-    "alertInput": "Test1234"
-
+    "alertInput": "Test1234",
+    "redComponentValue": 80,
+    "greenComponentValue": 220,
+    "blueComponentValue": 105
   }]
 }
